@@ -1,0 +1,591 @@
+/* Estilo para tablets */
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    /* Header */
+    .header {
+        position: relative;
+        height: 150px;
+    }
+    .header_logo {
+        width: 76px;
+        margin: 1% auto 1% 45%;
+    }
+    .header .grid-14 {
+        width: 788px;
+    }
+
+    .header_menu {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header_menu ul {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .header_menu ul, .header_menu ul li {
+        margin: 0 3% 0 auto;
+        padding: 0;
+    }
+    .header_btn {
+        width: 100%;
+        text-align: center;
+    }
+    .header .btn {
+        padding: 1%;
+    }
+    .header .btn:hover {
+        padding: 1.5%;
+    }
+    /* Junte-se */
+    .junte-se {
+        min-height: 57vh;
+    }
+    /* Diferenciais */
+    #diferenciais_linhas {
+        z-index: -1;
+    }
+    .diferenciais_lista li:last-child {
+        margin-top: 20px;
+    }
+    /* Footer */
+    .copy .grid-7 {
+        margin-top: 0;
+        width: 180px;
+        margin-right: 60px;
+    }
+    .footer_menu {
+        width: 502px;
+    }
+    /* Pagina Sobre*/
+    .titulo-interno {
+        margin-top: 0;
+    }
+    .titulo-sobre {
+        font-size: 2.75rem;
+    }
+    .quem-somos {
+        clear: both;
+        margin-bottom: 320px;
+    }
+    .sobre-texto {
+        width: 340px;
+    }
+    .sobre-imagem {
+        margin-top: 80px;
+        width: 380px;
+        height: 240px;
+        margin-left: 18px;
+    }
+    .texto-gd {
+        width: 80vw;
+    }
+    .missao {
+        min-height: 45vh;
+        max-height: 100vh;
+    }
+    #missao_logo {
+        display: none;
+    }
+    .missao_lista {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .missao_lista li, .missao_lista li:last-child {
+        margin-top: 0;
+        width: 200px;
+    }
+    .equipe .call {
+        padding-bottom: 0;
+    }
+    #sobre-diferenciais {
+        min-height: 90vh;
+    }
+    .parcerias {
+        padding: 30px 0;
+    }
+    .servicos-lista li {
+        width: 30%;
+    }
+    .servicos-icone {
+        width: 100%;
+        padding: 15px 0;
+    }
+    .servicos-lista .subtitulo {
+        width: 100%;
+    }
+    .form_orcamento {
+        margin-right: 0;
+    }
+    .contato-dados {
+        margin-left: 68px;
+        margin-right: 0;
+    }
+    .contato-texto {
+        display: none;
+    }
+    .dados-responsavel {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .localizacao iframe {
+        width: 100%;
+    }
+    .reunioes {
+        width: 100%;
+        height: 100%;
+    }
+    .reunioes img {
+        max-width: 100%;
+        height: 100%;
+    }
+    /* Seletivo */
+    .banner-seletivo {
+        margin-top: 0;
+    }
+    .requisitos-lista {
+        width: 100%;
+        margin: 0 auto;
+    }
+    /* Requisitos */
+    .requisitos-lista li {
+        width: 30%;
+        margin-right: 5px;
+    }
+    .requisitos-icone {
+        width: 100%;
+    }
+    /* Desenvolvimento */
+    .desenvolvimento {
+        height: 100%;
+    }
+    .desenvolvimento:after {
+        display: none;
+    }
+    .desenvolvimento-titulo {
+        position: relative;
+        height: 190px;
+        width: 190px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        z-index: 9;
+        right: 7%;
+    }
+    .lista-esquerda {
+        width: 180px;
+        margin-left: 70px;
+    }
+    .lista-direita {
+        width: 180px;
+        margin-left: 0px;
+        margin-right: 0;
+    }
+    .lista-direita p {
+        margin-left: 0;
+        margin-bottom: 137px;
+    }
+    #item-meio {
+        top: 325px;
+    }
+    /* Networking */
+    .networking {
+        height: 100%;
+    }
+    .networking:after {
+        display: none;
+    }
+    .networking-titulo {
+        margin-left: 290px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        color: white;
+    }
+    #networking-subtitulo {
+        color: white;
+    }
+    .networking-texto {
+        display: none;
+    }
+    .networking p {
+        color: black;
+        font-weight: bold;
+        margin-left: 40px;
+    }
+    .networking-resp {
+        display: inline-block;
+    }
+    .networking .btn {
+        margin: 0 auto 0 40%;
+    }
+    /* Areas Atuacao*/
+    .atuacao {
+        height: 100%;
+    }
+    .areas-lista::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 3px;
+        background: #fec63e;
+    }
+    .areas-lista li {
+        width: 30%;
+    }
+    /* Depoimentos */
+    .depoimentos {
+        width: 100%;
+        height: 100%;
+    }
+    .lista-depoimento {
+        width: 100%;
+    }
+    .depoimento {
+        width: 100%;
+        margin: 0 auto 0 30%;
+        margin-bottom: 20px;
+    }
+    .dados-membro {
+        width: 40%;
+    }
+    .dados-membro li {
+        width: auto;
+    }
+    .depoimento .quote-depoimento {
+        width: 40%;
+    }
+}
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 787px) {
+    /*Header*/
+    .header {
+        position: relative;
+        padding-bottom: 0px;
+    }
+
+    .header img {
+        width: 70px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .header_menu {
+        text-align: center;
+    }
+
+    .header_menu ul li {
+        margin: 5px;
+    }
+
+    .header_menu ul li a {
+        border: 4px solid #FFF;
+        width: 136px;
+        display: block;
+        float: left;
+        height: 60px;
+        padding-top: 20px;
+    }
+
+    #botao-processo {
+        padding-top: 10px;
+    }
+
+    .header_menu ul li a:hover {
+        border-color: #fff;
+    }
+
+    .header_menu ul li a.menu_ativo {
+        border-color: #fff;
+    }
+
+    .header_btn {
+        width: 100%;
+        text-align: center;
+        font-size: 120%;
+        margin-bottom: 30px;
+    }
+
+    .header .btn {
+        padding: 5%;
+    }
+
+    .header .btn:hover {
+        padding: 6%;
+    }
+
+    /* Solucoes Index */
+    .solucoes .subtitulo {
+        padding-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .solucoes .call {
+        padding: 20px 0;
+    }
+
+    /* Diferenciais index*/
+    .diferenciais {
+        min-height: 70vh;
+        max-height: 100%;
+    }
+
+    #diferenciais_linhas {
+        display: none;
+    }
+
+    .diferenciais .subtitulo {
+        padding-top: 30px;
+    }
+
+    #diferenciais_sobre {
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .diferenciais .call {
+        padding: 20px 0;
+    }
+
+    /* Junte-se Index */
+    .junte-se {
+        min-height: 50vh;
+        max-height: 100%;
+    }
+
+    .junte-se .call {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    /* Quebra */
+    blockquote p {
+        width: 96%;
+    }
+
+    /* Footer */
+    .footer {
+        max-height: 100%;
+        text-align: center;
+    }
+
+    .footer h3:after {
+        margin: 6px auto 12px auto;
+    }
+
+    .footer_historia {
+        padding: 0;
+    }
+
+    .footer_historia p {
+        text-align: justify;
+    }
+
+    .footer_contato {
+        margin: 0 0 20px;
+    }
+
+    /* Copyright */
+    .copy .grid-7 {
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .copy ul {
+        text-align: center;
+    }
+
+    /*Pagina Sobre*/
+    .titulo-interno {
+        margin-top: 0;
+    }
+
+    .sobre-imagem {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .quem-somos {
+        margin: 0;
+    }
+
+    /* Missao */
+    .missao {
+        min-height: 60vh;
+        max-height: 100%;
+        padding: 0;
+    }
+
+    #missao_logo {
+        display: none;
+    }
+
+    .missao_lista {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Diferenciais Pg Sobre */
+    #sobre-diferenciais {
+        min-height: 100vh;
+        max-height: 100%;
+    }
+
+    /* Parcerias */
+    .parcerias-lista {
+        width: 100%;
+    }
+
+    .parcerias-lista li {
+        margin-left: 0;
+    }
+
+    .parcerias-lista li img {
+        margin: 0 auto;
+    }
+
+    /* Solucoes Pg */
+    .contato-dados {
+        margin: 0 auto;
+    }
+
+    .dados-empresa p {
+        font-weight: bold;
+    }
+
+    .contato-lista .contato-texto p {
+        padding: 0 2%;
+        margin-top: 2%;
+    }
+
+    .contato-lista .dados-responsavel {
+        text-align: center;
+    }
+
+    /* Contatos Pg */
+    .localizacao iframe {
+        width: 100%;
+    }
+
+    .reunioes, .reunioes img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Processo Seletivo Pg */
+    .banner-seletivo {
+        margin-top: 0;
+    }
+    .requisitos-lista {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .requisitos-icone {
+        width: 100%;
+    }
+    .requisitos-icone img {
+        width: 145px;
+        margin: 0 auto;
+    }
+    /* Pq Nexus */
+    .titulo-mobile {
+        display: block;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .titulo-mobile h3 {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .titulo-mobile p {
+        font-size: 1.125rem;
+    }
+    .desenvolvimento-titulo, .networking-titulo, .desenvolvimento:after, .networking:after {
+        display: none;
+    }
+    /* Desenvolvimento */
+    .desenvolvimento {
+        height: 100%;
+    }
+    .lista-direita, .lista-esquerda, #item-meio, .lista-direita p, .lista-esquerda p, #item-meio p {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin: 20px auto 0;
+        z-index: 10;
+
+    }
+    /* Networking */
+    .networking {
+        height: 100%;
+    }
+    .networking .titulo-mobile h3 {
+        font-size: 1.5rem;
+        color: black;
+    }
+    .networking p {
+        margin: 20px auto 0;
+    }
+    #networking-meio {
+        margin: 20px auto 0;
+        margin-bottom: 30px;
+    }
+    .networking .btn {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto 0 20%;
+        margin-top: 50px;
+    }
+    /* Areas atuacao */
+    .atuacao {
+        height: 100%;
+    }
+    #atuacao-titulo {
+        margin-right: 10px;
+    }
+    .areas-lista {
+        height: 100%;
+    }
+    .areas-lista:after {
+        display: none;
+    }
+    .areas-lista li:before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 3px;
+        background: #fec63e;
+    }
+    /* Depoimentos */
+    .depoimentos {
+        height: 100%;
+    }
+    .lista-depoimento li {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .depoimentos img {
+        margin: 0 auto;
+    }
+    .depoimentos .dados-membro {
+        width: 100%;
+        height: 100%;
+    }
+    .dados-membro .grid-3 {
+        margin: 0 auto;
+    }
+    .lista-depoimento .quote-depoimento {
+        width: 100%;
+        height: 100%;
+    }
+
+}
